@@ -49,6 +49,8 @@ rec {
 
   gnome_settings_daemon = callPackage ./core/gnome-settings-daemon { };
 
+  gnome_shell = callPackage ./core/gnome-shell { };
+
   gnome_terminal = callPackage ./core/gnome-terminal { };
 
   gnome_themes_standard = callPackage ./core/gnome-themes-standard { };
